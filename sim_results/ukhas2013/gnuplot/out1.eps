@@ -1,0 +1,2985 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: out1.eps
+%%Creator: gnuplot 4.6 patchlevel 3
+%%CreationDate: Sat Aug 31 13:59:32 2013
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 36050 26114
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -33 def
+/dl1 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 36050 50 lineto 36050 26114 lineto 50 26114 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 4.6 (September 2012)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Default Line colors
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default Line Types
+/LTw {PL [] 1 setgray} def
+/LTb {BL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
+/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
+/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
+/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
+/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+ 2 lt
+	{/InterpretLevel1 true def}
+	{/InterpretLevel1 Level1 def}
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {Gshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (out1.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.6 patchlevel 3)
+  /Author (Matt)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Sat Aug 31 13:59:32 2013)
+  /DOCINFO pdfmark
+end
+} ifelse
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Helvetica) findfont 100 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 720000.00 521280.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 430 320 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 320 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 320 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-5)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 31678 M
+31 0 V
+719358 0 R
+-31 0 V
+430 73130 M
+31 0 V
+719358 0 R
+-31 0 V
+430 94393 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 104488 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 104488 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 104488 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-4)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 135845 M
+31 0 V
+719358 0 R
+-31 0 V
+430 177298 M
+31 0 V
+719358 0 R
+-31 0 V
+430 198561 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 208656 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 208656 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 208656 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-3)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 240013 M
+31 0 V
+719358 0 R
+-31 0 V
+430 281466 M
+31 0 V
+719358 0 R
+-31 0 V
+430 302728 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 312823 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 312823 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 312823 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-2)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 344181 M
+31 0 V
+719358 0 R
+-31 0 V
+430 385634 M
+31 0 V
+719358 0 R
+-31 0 V
+430 406896 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 416991 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 416991 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 416991 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-1)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 448349 M
+31 0 V
+719358 0 R
+-31 0 V
+430 489801 M
+31 0 V
+719358 0 R
+-31 0 V
+430 511064 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 521159 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 521159 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 521159 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (0)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 42747 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+42747 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+42747 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 (-6)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 127381 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+127381 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+127381 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 (-4)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 212015 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+212015 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+212015 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 (-2)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 296649 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+296649 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+296649 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 0)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 381283 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+381283 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+381283 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 2)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 465917 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+465917 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+465917 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 4)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 550551 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+550551 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+550551 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 6)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 635185 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+635185 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+635185 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 8)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 719819 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+719819 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+719819 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 10)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+430 521159 N
+430 320 L
+719389 0 V
+0 520839 V
+-719389 0 V
+Z stroke
+LCb setrgbcolor
+80 260739 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 100.0 0.0 true true 0 (BER)]
+] -33.3 MCshow
+grestore
+LTb
+LCb setrgbcolor
+360124 70 M
+[ [(Helvetica) 100.0 0.0 true true 0 (SNR \(dB\))]
+] -33.3 MCshow
+LTb
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UP
+1.200 UL
+LT0
+0.00 0.00 1.00 C LCb setrgbcolor
+719336 521046 M
+[ [(Helvetica) 100.0 0.0 true true 0 (RS\(255,223\) R=0.87)]
+] -33.3 MRshow
+LT0
+0.00 0.00 1.00 C 719396 521046 M
+303 0 V
+430 460870 M
+4232 -396 V
+4231 -406 V
+4232 -384 V
+4232 -457 V
+4232 -447 V
+4231 -463 V
+4232 -418 V
+4232 -522 V
+4231 -430 V
+4232 -627 V
+4232 -333 V
+4231 -454 V
+4232 -627 V
+4232 -349 V
+4232 -657 V
+4231 -515 V
+4232 -477 V
+4232 -438 V
+4231 -600 V
+4232 -623 V
+4232 -541 V
+4231 -576 V
+4232 -685 V
+4232 -561 V
+4232 -593 V
+4231 -661 V
+4232 -548 V
+4232 -649 V
+4231 -726 V
+4232 -604 V
+4232 -735 V
+4231 -561 V
+4232 -711 V
+4232 -861 V
+4232 -593 V
+4231 -838 V
+4232 -773 V
+4232 -690 V
+4231 -787 V
+4232 -816 V
+4232 -756 V
+4231 -860 V
+4232 -889 V
+4232 -726 V
+4232 -885 V
+4231 -803 V
+4232 -958 V
+4232 -913 V
+4231 -890 V
+4232 -1005 V
+4232 -992 V
+4231 -856 V
+4232 -984 V
+4232 -1096 V
+4232 -1038 V
+4231 -1073 V
+4232 -957 V
+4232 -1163 V
+4231 -1124 V
+4232 -1118 V
+4232 -1074 V
+4231 -1268 V
+4232 -1174 V
+4232 -1200 V
+4232 -1283 V
+4231 -1207 V
+4232 -1287 V
+4232 -1288 V
+4231 -1341 V
+4232 -1469 V
+4232 -1258 V
+4231 -1599 V
+4232 -1342 V
+4232 -1383 V
+4232 -1694 V
+4231 -1372 V
+4232 -1752 V
+4232 -1326 V
+4231 -1717 V
+4232 -1599 V
+4232 -1825 V
+4231 -1581 V
+4232 -1915 V
+4232 -1533 V
+4232 -2021 V
+4231 -1724 V
+4232 -1765 V
+4232 -2119 V
+4231 -1838 V
+4232 -2245 V
+4232 -1920 V
+4231 -2130 V
+4232 -2000 V
+4232 -2181 V
+4232 -2288 V
+4231 -1918 V
+4232 -2550 V
+4232 -2312 V
+4231 -2167 V
+4232 -2981 V
+4232 -2267 V
+4231 -2519 V
+stroke 432063 345220 M
+4232 -2711 V
+4232 -2724 V
+4232 -2627 V
+4231 -2741 V
+4232 -2812 V
+4232 -2645 V
+4231 -3704 V
+4232 -2993 V
+4232 -4618 V
+4231 -4814 V
+4232 -6566 V
+4232 -7955 V
+4232 -9353 V
+4231 -11386 V
+4232 -14065 V
+4232 -18929 V
+4231 -18258 V
+4232 -24774 V
+4232 -27957 V
+4231 -31079 V
+4232 -39129 V
+4232 -40971 V
+4232 -15883 V
+4231 -13731 V
+430 460870 Star
+21589 458780 Star
+42747 456320 Star
+63906 453900 Star
+85064 451247 Star
+106223 448291 Star
+127381 445103 Star
+148540 441642 Star
+169698 437738 Star
+190857 433622 Star
+212015 429053 Star
+233174 424087 Star
+254332 418652 Star
+275491 412653 Star
+296649 406061 Star
+317808 398785 Star
+338966 391019 Star
+360125 382144 Star
+381283 372453 Star
+402442 361934 Star
+423600 350006 Star
+444759 337158 Star
+465917 322263 Star
+487076 288957 Star
+508234 201545 Star
+529393 46526 Star
+719547 521046 Star
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.200 UL
+LT0
+0.00 0.00 1.00 C LCb setrgbcolor
+719336 520946 M
+[ [(Helvetica) 100.0 0.0 true true 0 (RS\(7,3\) R=0.43)]
+] -33.3 MRshow
+LT0
+0.00 0.00 1.00 C 719396 520946 M
+303 0 V
+430 462076 M
+4232 -347 V
+4231 -360 V
+4232 -610 V
+4232 -632 V
+4232 -434 V
+4231 -444 V
+4232 -527 V
+4232 -757 V
+4231 -163 V
+4232 -692 V
+4232 -678 V
+4231 -534 V
+4232 -625 V
+4232 -595 V
+4232 -574 V
+4231 -846 V
+4232 -617 V
+4232 -636 V
+4231 -884 V
+4232 -466 V
+4232 -917 V
+4231 -490 V
+4232 -941 V
+4232 -863 V
+4232 -613 V
+4231 -1096 V
+4232 -725 V
+4232 -887 V
+4231 -915 V
+4232 -982 V
+4232 -1164 V
+4231 -1031 V
+4232 -737 V
+4232 -1247 V
+4232 -1108 V
+4231 -1200 V
+4232 -1117 V
+4232 -1312 V
+4231 -1255 V
+4232 -1273 V
+4232 -1044 V
+4231 -1236 V
+4232 -1653 V
+4232 -1310 V
+4232 -1496 V
+4231 -1460 V
+4232 -1661 V
+4232 -1692 V
+4231 -1360 V
+4232 -1937 V
+4232 -1643 V
+4231 -1451 V
+4232 -2014 V
+4232 -1886 V
+4232 -2381 V
+4231 -1822 V
+4232 -2034 V
+4232 -2402 V
+4231 -1996 V
+4232 -2220 V
+4232 -2210 V
+4231 -2739 V
+4232 -2334 V
+4232 -2706 V
+4232 -2363 V
+4231 -3222 V
+4232 -3146 V
+4232 -2605 V
+4231 -2275 V
+4232 -3758 V
+4232 -2608 V
+4231 -2883 V
+4232 -3424 V
+4232 -4363 V
+4232 -2527 V
+4231 -3929 V
+4232 -3974 V
+4232 -3931 V
+4231 -2947 V
+4232 -4104 V
+4232 -5131 V
+4231 -4106 V
+4232 -2960 V
+4232 -6565 V
+4232 -3165 V
+4231 -5079 V
+4232 -4706 V
+4232 -5418 V
+4231 -4779 V
+4232 -6707 V
+4232 -4303 V
+4231 -4249 V
+4232 -6976 V
+4232 -5267 V
+4232 -5051 V
+4231 -7398 V
+4232 -5955 V
+4232 -4762 V
+4231 -8627 V
+4232 -5747 V
+4232 -9417 V
+4231 -5678 V
+stroke 432063 211990 M
+4232 -5964 V
+4232 -8433 V
+4232 -5815 V
+4231 -12634 V
+4232 -2036 V
+4232 -16268 V
+4231 -3601 V
+4232 -2799 V
+4232 -20526 V
+4231 -2905 V
+4232 -3354 V
+4232 -19602 V
+4232 -13790 V
+4231 -16805 V
+4232 -762 V
+4232 -12258 V
+4231 -15424 V
+4232 -13004 V
+4232 -1932 V
+4231 -16421 V
+520149 320 L
+2795 0 R
+2217 4312 V
+4232 23126 V
+532605 320 L
+430 462076 Crs
+21589 459693 Crs
+42747 457110 Crs
+63906 454104 Crs
+85064 450655 Crs
+106223 446831 Crs
+127381 442226 Crs
+148540 436939 Crs
+169698 430782 Crs
+190857 424043 Crs
+212015 415933 Crs
+233174 406558 Crs
+254332 396084 Crs
+275491 383732 Crs
+296649 368726 Crs
+317808 352921 Crs
+338966 334036 Crs
+360125 312109 Crs
+381283 285420 Crs
+402442 259574 Crs
+423600 227085 Crs
+444759 191778 Crs
+465917 154440 Crs
+487076 94263 Crs
+508234 36010 Crs
+529393 27758 Crs
+719547 520946 Crs
+% End plot #2
+% Begin plot #3
+1.000 UP
+1.200 UL
+LT0
+1.00 0.00 0.00 C LCb setrgbcolor
+719336 520846 M
+[ [(Helvetica) 100.0 0.0 true true 0 (Rep3 \(hard\) R=0.33)]
+] -33.3 MRshow
+LT0
+1.00 0.00 0.00 C 719396 520846 M
+303 0 V
+430 441471 M
+4232 -836 V
+4231 -635 V
+4232 -744 V
+4232 -765 V
+4232 -858 V
+4231 -594 V
+4232 -910 V
+4232 -739 V
+4231 -997 V
+4232 -761 V
+4232 -907 V
+4231 -981 V
+4232 -964 V
+4232 -872 V
+4232 -951 V
+4231 -798 V
+4232 -1010 V
+4232 -1062 V
+4231 -963 V
+4232 -994 V
+4232 -1218 V
+4231 -1011 V
+4232 -1121 V
+4232 -1044 V
+4232 -1151 V
+4231 -1187 V
+4232 -855 V
+4232 -1340 V
+4231 -1520 V
+4232 -831 V
+4232 -1150 V
+4231 -1541 V
+4232 -1345 V
+4232 -1111 V
+4232 -1515 V
+4231 -1455 V
+4232 -1056 V
+4232 -1534 V
+4231 -1646 V
+4232 -1478 V
+4232 -1420 V
+4231 -1626 V
+4232 -1330 V
+4232 -1777 V
+4232 -1753 V
+4231 -1319 V
+4232 -2099 V
+4232 -1667 V
+4231 -1900 V
+4232 -1477 V
+4232 -1637 V
+4231 -2354 V
+4232 -1776 V
+4232 -1499 V
+4232 -2431 V
+4231 -1884 V
+4232 -2187 V
+4232 -2083 V
+4231 -1821 V
+4232 -2392 V
+4232 -1982 V
+4231 -2358 V
+4232 -2293 V
+4232 -2659 V
+4232 -2232 V
+4231 -2830 V
+4232 -2476 V
+4232 -2218 V
+4231 -2364 V
+4232 -2730 V
+4232 -2928 V
+4231 -2642 V
+4232 -2782 V
+4232 -2648 V
+4232 -3346 V
+4231 -2620 V
+4232 -3648 V
+4232 -2288 V
+4231 -3217 V
+4232 -3228 V
+4232 -3242 V
+4231 -3997 V
+4232 -3586 V
+4232 -3179 V
+4232 -3913 V
+4231 -3996 V
+4232 -2542 V
+4232 -3315 V
+4231 -4370 V
+4232 -3565 V
+4232 -5283 V
+4231 -3472 V
+4232 -2788 V
+4232 -5753 V
+4232 -5594 V
+4231 -4683 V
+4232 -3904 V
+4232 -5188 V
+4231 -3330 V
+4232 -1653 V
+4232 -7324 V
+4231 -5927 V
+stroke 432063 218496 M
+4232 -6485 V
+4232 -4733 V
+4232 -5656 V
+4231 -5204 V
+4232 -4157 V
+4232 -6942 V
+4231 -4707 V
+4232 -8484 V
+4232 -7965 V
+4231 3378 V
+4232 -15199 V
+4232 -3937 V
+4232 -8869 V
+4231 -2134 V
+4232 -9714 V
+4232 -3961 V
+4231 -8071 V
+4232 -11168 V
+4232 -7352 V
+4231 -5064 V
+4232 -10694 V
+4232 -6474 V
+4232 -6540 V
+4231 -10095 V
+4232 -3937 V
+4232 -27421 V
+4231 4767 V
+4232 -13015 V
+553281 320 L
+8172 0 R
+1793 11869 V
+565040 320 L
+430 441471 BoxF
+21589 437633 BoxF
+42747 433632 BoxF
+63906 428957 BoxF
+85064 424130 BoxF
+106223 418585 BoxF
+127381 412852 BoxF
+148540 406190 BoxF
+169698 399021 BoxF
+190857 391115 BoxF
+212015 382653 BoxF
+233174 372956 BoxF
+254332 362589 BoxF
+275491 351065 BoxF
+296649 338447 BoxF
+317808 324101 BoxF
+338966 309100 BoxF
+360125 291183 BoxF
+381283 273395 BoxF
+402442 250505 BoxF
+423600 231747 BoxF
+444759 201622 BoxF
+465917 172128 BoxF
+487076 139536 BoxF
+508234 104488 BoxF
+529393 68364 BoxF
+550551 18663 BoxF
+719547 520846 BoxF
+% End plot #3
+% Begin plot #4
+1.000 UP
+1.200 UL
+LT0
+1.00 0.00 0.00 C LCb setrgbcolor
+719336 520746 M
+[ [(Helvetica) 100.0 0.0 true true 0 (Rep3 \(soft\) R=0.33)]
+] -33.3 MRshow
+LT0
+1.00 0.00 0.00 C 719396 520746 M
+303 0 V
+430 431330 M
+4232 -1018 V
+4231 -1101 V
+4232 -922 V
+4232 -1033 V
+4232 -671 V
+4231 -1064 V
+4232 -1303 V
+4232 -954 V
+4231 -1002 V
+4232 -1111 V
+4232 -1125 V
+4231 -1016 V
+4232 -949 V
+4232 -1357 V
+4232 -1170 V
+4231 -1222 V
+4232 -1361 V
+4232 -1379 V
+4231 -857 V
+4232 -1489 V
+4232 -1465 V
+4231 -1334 V
+4232 -1176 V
+4232 -1619 V
+4232 -1225 V
+4231 -1782 V
+4232 -1418 V
+4232 -1573 V
+4231 -1535 V
+4232 -1382 V
+4232 -1613 V
+4231 -1216 V
+4232 -1947 V
+4232 -1731 V
+4232 -1665 V
+4231 -1981 V
+4232 -1703 V
+4232 -1990 V
+4231 -1688 V
+4232 -1893 V
+4232 -2158 V
+4231 -1699 V
+4232 -2627 V
+4232 -1822 V
+4232 -1491 V
+4231 -2673 V
+4232 -2126 V
+4232 -2530 V
+4231 -2547 V
+4232 -1715 V
+4232 -2468 V
+4231 -2129 V
+4232 -3323 V
+4232 -1756 V
+4232 -2591 V
+4231 -3025 V
+4232 -2230 V
+4232 -2757 V
+4231 -3154 V
+4232 -2497 V
+4232 -2870 V
+4231 -3072 V
+4232 -3383 V
+4232 -3385 V
+4232 -3000 V
+4231 -3210 V
+4232 -3333 V
+4232 -2961 V
+4231 -3100 V
+4232 -4380 V
+4232 -3631 V
+4231 -3737 V
+4232 -3690 V
+4232 -3146 V
+4232 -2874 V
+4231 -3662 V
+4232 -5292 V
+4232 -3158 V
+4231 -5695 V
+4232 -4446 V
+4232 -4123 V
+4231 -5001 V
+4232 -2922 V
+4232 -4859 V
+4232 -4850 V
+4231 -5074 V
+4232 -7793 V
+4232 -1632 V
+4231 -7629 V
+4232 -4027 V
+4232 -10414 V
+4231 983 V
+4232 -5817 V
+4232 -11484 V
+4232 -1204 V
+4231 -7989 V
+4232 -5572 V
+4232 -8556 V
+4231 919 V
+4232 -11481 V
+4232 -4953 V
+4231 -8398 V
+stroke 432063 136071 M
+4232 -2785 V
+4232 -17630 V
+4232 -2172 V
+4231 -6789 V
+4232 -15222 V
+4232 -3121 V
+4231 -6974 V
+4232 -8248 V
+4232 -14861 V
+4231 4766 V
+4232 -11531 V
+4232 -9731 V
+4232 -1847 V
+4231 -24384 V
+4232 3121 V
+498898 320 L
+430 431330 Box
+21589 426585 Box
+42747 421151 Box
+63906 415534 Box
+85064 409226 Box
+106223 402407 Box
+127381 394717 Box
+148540 386545 Box
+169698 377290 Box
+190857 367493 Box
+212015 355902 Box
+233174 343635 Box
+254332 329972 Box
+275491 314262 Box
+296649 297278 Box
+317808 280200 Box
+338966 257947 Box
+360125 236192 Box
+381283 210037 Box
+402442 182101 Box
+423600 149422 Box
+444759 113484 Box
+465917 73130 Box
+487076 39926 Box
+719547 520746 Box
+% End plot #4
+% Begin plot #5
+1.000 UP
+1.200 UL
+LT0
+0.00 0.00 0.00 C LCb setrgbcolor
+719336 520646 M
+[ [(Helvetica) 100.0 0.0 true true 0 (Uncoded R=1)]
+] -33.3 MRshow
+LT0
+0.00 0.00 0.00 C 719396 520646 M
+303 0 V
+430 460900 M
+4232 -462 V
+4231 -342 V
+4232 -394 V
+4232 -592 V
+4231 -426 V
+4232 -354 V
+4232 -499 V
+4232 -516 V
+4231 -420 V
+4232 -361 V
+4232 -447 V
+4231 -589 V
+4232 -572 V
+4232 -483 V
+4231 -286 V
+4232 -649 V
+4232 -558 V
+4232 -425 V
+4231 -802 V
+4232 -476 V
+4232 -572 V
+4231 -563 V
+4232 -626 V
+4232 -599 V
+4231 -538 V
+4232 -512 V
+4232 -888 V
+4232 -480 V
+4231 -640 V
+4232 -742 V
+4232 -668 V
+4231 -711 V
+4232 -814 V
+4232 -589 V
+4231 -865 V
+4232 -669 V
+4232 -737 V
+4232 -651 V
+4231 -668 V
+4232 -696 V
+4232 -913 V
+4231 -965 V
+4232 -745 V
+4232 -1101 V
+4231 -701 V
+4232 -1033 V
+4232 -750 V
+4232 -834 V
+4231 -783 V
+4232 -1208 V
+4232 -632 V
+4231 -1326 V
+4232 -744 V
+4232 -1036 V
+4231 -1131 V
+4232 -799 V
+4232 -1357 V
+4232 -1136 V
+4231 -1031 V
+4232 -1288 V
+4232 -991 V
+4231 -1379 V
+4232 -829 V
+4232 -1137 V
+4231 -1640 V
+4232 -1171 V
+4232 -989 V
+4232 -1515 V
+4231 -1542 V
+4232 -1278 V
+4232 -1068 V
+4231 -1588 V
+4232 -1574 V
+4232 -1241 V
+4231 -1450 V
+4232 -1631 V
+4232 -1627 V
+4232 -1454 V
+4231 -1489 V
+4232 -1722 V
+4232 -1675 V
+4231 -2036 V
+4232 -1677 V
+4232 -1678 V
+4231 -1961 V
+4232 -1620 V
+4232 -2214 V
+4232 -1566 V
+4231 -1937 V
+4232 -2054 V
+4232 -2173 V
+4231 -2077 V
+4232 -1995 V
+4232 -2218 V
+4231 -1982 V
+4232 -2406 V
+4232 -2459 V
+4232 -2446 V
+4231 -2712 V
+4232 -2180 V
+4232 -2506 V
+4231 -1862 V
+stroke 432063 345757 M
+4232 -3364 V
+4232 -2275 V
+4231 -2563 V
+4232 -2609 V
+4232 -3204 V
+4232 -2103 V
+4231 -3734 V
+4232 -2922 V
+4232 -3134 V
+4231 -3598 V
+4232 -2808 V
+4232 -3600 V
+4231 -2549 V
+4232 -3817 V
+4232 -3287 V
+4232 -3986 V
+4231 -3535 V
+4232 -2812 V
+4232 -3915 V
+4231 -3461 V
+4232 -4614 V
+4232 -4153 V
+4231 -3570 V
+4232 -4905 V
+4232 -3492 V
+4232 -5210 V
+4231 -3593 V
+4232 -5867 V
+4232 -3673 V
+4231 -4652 V
+4232 -5579 V
+4232 -3977 V
+4231 -6497 V
+4232 -3266 V
+4232 -5975 V
+4232 -5410 V
+4231 -3181 V
+4232 -8567 V
+4232 -4650 V
+4231 -6915 V
+4232 -6041 V
+4232 -5629 V
+4231 -5824 V
+4232 -6381 V
+4232 -6722 V
+4232 -4327 V
+4231 -12409 V
+4232 -4840 V
+4232 -8345 V
+4231 -2506 V
+4232 -9227 V
+4232 -9064 V
+4231 -6820 V
+4232 -6143 V
+4232 -10873 V
+4232 -6756 V
+4231 -12113 V
+4232 -5928 V
+4232 -8978 V
+4231 -9820 V
+4232 -11664 V
+4232 -13311 V
+4231 -1206 V
+4232 -6568 V
+331 -2920 V
+42747 456534 Pls
+85064 451247 Pls
+127381 445087 Pls
+169698 438019 Pls
+212015 428986 Pls
+254332 418506 Pls
+296649 406035 Pls
+338966 391191 Pls
+381283 372773 Pls
+423600 350125 Pls
+465917 322983 Pls
+508234 289857 Pls
+550551 247077 Pls
+592868 196300 Pls
+635185 132562 Pls
+677502 54787 Pls
+719547 520646 Pls
+% End plot #5
+1.000 UL
+LTb
+LCb setrgbcolor
+430 521159 N
+430 320 L
+719389 0 V
+0 520839 V
+-719389 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Page: 2 2
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Helvetica) findfont 100 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 720000.00 521280.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 430 320 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 320 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 320 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-5)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 31678 M
+31 0 V
+719358 0 R
+-31 0 V
+430 73130 M
+31 0 V
+719358 0 R
+-31 0 V
+430 94393 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 104488 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 104488 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 104488 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-4)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 135845 M
+31 0 V
+719358 0 R
+-31 0 V
+430 177298 M
+31 0 V
+719358 0 R
+-31 0 V
+430 198561 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 208656 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 208656 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 208656 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-3)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 240013 M
+31 0 V
+719358 0 R
+-31 0 V
+430 281466 M
+31 0 V
+719358 0 R
+-31 0 V
+430 302728 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 312823 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 312823 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 312823 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-2)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 344181 M
+31 0 V
+719358 0 R
+-31 0 V
+430 385634 M
+31 0 V
+719358 0 R
+-31 0 V
+430 406896 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 416991 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 416991 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 416991 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (-1)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+430 448349 M
+31 0 V
+719358 0 R
+-31 0 V
+430 489801 M
+31 0 V
+719358 0 R
+-31 0 V
+430 511064 M
+31 0 V
+719358 0 R
+-31 0 V
+stroke
+LTa
+0.50 0.50 0.50 C 430 521159 M
+719389 0 V
+stroke
+LTb
+LCb setrgbcolor
+430 521159 M
+63 0 V
+719326 0 R
+-63 0 V
+stroke
+370 521159 M
+[ [(Helvetica) 100.0 0.0 true true 0 (10)]
+[(Helvetica) 80.0 50.0 true true 0 (0)]
+] -43.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 42747 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+42747 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+42747 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 (-6)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 127381 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+127381 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+127381 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 (-4)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 212015 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+212015 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+212015 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 (-2)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 296649 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+296649 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+296649 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 0)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 381283 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+381283 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+381283 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 2)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 465917 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+465917 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+465917 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 4)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 550551 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+550551 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+550551 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 6)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 635185 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+635185 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+635185 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 8)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTa
+0.50 0.50 0.50 C 719819 320 M
+0 520839 V
+stroke
+LTb
+LCb setrgbcolor
+719819 320 M
+0 63 V
+0 520776 R
+0 -63 V
+stroke
+719819 220 M
+[ [(Helvetica) 100.0 0.0 true true 0 ( 10)]
+] -33.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+430 521159 N
+430 320 L
+719389 0 V
+0 520839 V
+-719389 0 V
+Z stroke
+LCb setrgbcolor
+80 260739 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 100.0 0.0 true true 0 (BER)]
+] -33.3 MCshow
+grestore
+LTb
+LCb setrgbcolor
+360124 70 M
+[ [(Helvetica) 100.0 0.0 true true 0 (SNR \(dB\))]
+] -33.3 MCshow
+LTb
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UP
+1.200 UL
+LT0
+0.00 0.00 1.00 C LCb setrgbcolor
+719336 521046 M
+[ [(Helvetica) 100.0 0.0 true true 0 (RS\(255,223\) R=0.87)]
+] -33.3 MRshow
+LT0
+0.00 0.00 1.00 C 719396 521046 M
+303 0 V
+430 460870 M
+4232 -396 V
+4231 -406 V
+4232 -384 V
+4232 -457 V
+4232 -447 V
+4231 -463 V
+4232 -418 V
+4232 -522 V
+4231 -430 V
+4232 -627 V
+4232 -333 V
+4231 -454 V
+4232 -627 V
+4232 -349 V
+4232 -657 V
+4231 -515 V
+4232 -477 V
+4232 -438 V
+4231 -600 V
+4232 -623 V
+4232 -541 V
+4231 -576 V
+4232 -685 V
+4232 -561 V
+4232 -593 V
+4231 -661 V
+4232 -548 V
+4232 -649 V
+4231 -726 V
+4232 -604 V
+4232 -735 V
+4231 -561 V
+4232 -711 V
+4232 -861 V
+4232 -593 V
+4231 -838 V
+4232 -773 V
+4232 -690 V
+4231 -787 V
+4232 -816 V
+4232 -756 V
+4231 -860 V
+4232 -889 V
+4232 -726 V
+4232 -885 V
+4231 -803 V
+4232 -958 V
+4232 -913 V
+4231 -890 V
+4232 -1005 V
+4232 -992 V
+4231 -856 V
+4232 -984 V
+4232 -1096 V
+4232 -1038 V
+4231 -1073 V
+4232 -957 V
+4232 -1163 V
+4231 -1124 V
+4232 -1118 V
+4232 -1074 V
+4231 -1268 V
+4232 -1174 V
+4232 -1200 V
+4232 -1283 V
+4231 -1207 V
+4232 -1287 V
+4232 -1288 V
+4231 -1341 V
+4232 -1469 V
+4232 -1258 V
+4231 -1599 V
+4232 -1342 V
+4232 -1383 V
+4232 -1694 V
+4231 -1372 V
+4232 -1752 V
+4232 -1326 V
+4231 -1717 V
+4232 -1599 V
+4232 -1825 V
+4231 -1581 V
+4232 -1915 V
+4232 -1533 V
+4232 -2021 V
+4231 -1724 V
+4232 -1765 V
+4232 -2119 V
+4231 -1838 V
+4232 -2245 V
+4232 -1920 V
+4231 -2130 V
+4232 -2000 V
+4232 -2181 V
+4232 -2288 V
+4231 -1918 V
+4232 -2550 V
+4232 -2312 V
+4231 -2167 V
+4232 -2981 V
+4232 -2267 V
+4231 -2519 V
+stroke 432063 345220 M
+4232 -2711 V
+4232 -2724 V
+4232 -2627 V
+4231 -2741 V
+4232 -2812 V
+4232 -2645 V
+4231 -3704 V
+4232 -2993 V
+4232 -4618 V
+4231 -4814 V
+4232 -6566 V
+4232 -7955 V
+4232 -9353 V
+4231 -11386 V
+4232 -14065 V
+4232 -18929 V
+4231 -18258 V
+4232 -24774 V
+4232 -27957 V
+4231 -31079 V
+4232 -39129 V
+4232 -40971 V
+4232 -15883 V
+4231 -13731 V
+430 460870 Star
+21589 458780 Star
+42747 456320 Star
+63906 453900 Star
+85064 451247 Star
+106223 448291 Star
+127381 445103 Star
+148540 441642 Star
+169698 437738 Star
+190857 433622 Star
+212015 429053 Star
+233174 424087 Star
+254332 418652 Star
+275491 412653 Star
+296649 406061 Star
+317808 398785 Star
+338966 391019 Star
+360125 382144 Star
+381283 372453 Star
+402442 361934 Star
+423600 350006 Star
+444759 337158 Star
+465917 322263 Star
+487076 288957 Star
+508234 201545 Star
+529393 46526 Star
+719547 521046 Star
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.200 UL
+LT0
+0.00 0.00 1.00 C LCb setrgbcolor
+719336 520946 M
+[ [(Helvetica) 100.0 0.0 true true 0 (RS\(7,3\) R=0.43)]
+] -33.3 MRshow
+LT0
+0.00 0.00 1.00 C 719396 520946 M
+303 0 V
+430 462076 M
+4232 -347 V
+4231 -360 V
+4232 -610 V
+4232 -632 V
+4232 -434 V
+4231 -444 V
+4232 -527 V
+4232 -757 V
+4231 -163 V
+4232 -692 V
+4232 -678 V
+4231 -534 V
+4232 -625 V
+4232 -595 V
+4232 -574 V
+4231 -846 V
+4232 -617 V
+4232 -636 V
+4231 -884 V
+4232 -466 V
+4232 -917 V
+4231 -490 V
+4232 -941 V
+4232 -863 V
+4232 -613 V
+4231 -1096 V
+4232 -725 V
+4232 -887 V
+4231 -915 V
+4232 -982 V
+4232 -1164 V
+4231 -1031 V
+4232 -737 V
+4232 -1247 V
+4232 -1108 V
+4231 -1200 V
+4232 -1117 V
+4232 -1312 V
+4231 -1255 V
+4232 -1273 V
+4232 -1044 V
+4231 -1236 V
+4232 -1653 V
+4232 -1310 V
+4232 -1496 V
+4231 -1460 V
+4232 -1661 V
+4232 -1692 V
+4231 -1360 V
+4232 -1937 V
+4232 -1643 V
+4231 -1451 V
+4232 -2014 V
+4232 -1886 V
+4232 -2381 V
+4231 -1822 V
+4232 -2034 V
+4232 -2402 V
+4231 -1996 V
+4232 -2220 V
+4232 -2210 V
+4231 -2739 V
+4232 -2334 V
+4232 -2706 V
+4232 -2363 V
+4231 -3222 V
+4232 -3146 V
+4232 -2605 V
+4231 -2275 V
+4232 -3758 V
+4232 -2608 V
+4231 -2883 V
+4232 -3424 V
+4232 -4363 V
+4232 -2527 V
+4231 -3929 V
+4232 -3974 V
+4232 -3931 V
+4231 -2947 V
+4232 -4104 V
+4232 -5131 V
+4231 -4106 V
+4232 -2960 V
+4232 -6565 V
+4232 -3165 V
+4231 -5079 V
+4232 -4706 V
+4232 -5418 V
+4231 -4779 V
+4232 -6707 V
+4232 -4303 V
+4231 -4249 V
+4232 -6976 V
+4232 -5267 V
+4232 -5051 V
+4231 -7398 V
+4232 -5955 V
+4232 -4762 V
+4231 -8627 V
+4232 -5747 V
+4232 -9417 V
+4231 -5678 V
+stroke 432063 211990 M
+4232 -5964 V
+4232 -8433 V
+4232 -5815 V
+4231 -12634 V
+4232 -2036 V
+4232 -16268 V
+4231 -3601 V
+4232 -2799 V
+4232 -20526 V
+4231 -2905 V
+4232 -3354 V
+4232 -19602 V
+4232 -13790 V
+4231 -16805 V
+4232 -762 V
+4232 -12258 V
+4231 -15424 V
+4232 -13004 V
+4232 -1932 V
+4231 -16421 V
+520149 320 L
+2795 0 R
+2217 4312 V
+4232 23126 V
+532605 320 L
+430 462076 Crs
+21589 459693 Crs
+42747 457110 Crs
+63906 454104 Crs
+85064 450655 Crs
+106223 446831 Crs
+127381 442226 Crs
+148540 436939 Crs
+169698 430782 Crs
+190857 424043 Crs
+212015 415933 Crs
+233174 406558 Crs
+254332 396084 Crs
+275491 383732 Crs
+296649 368726 Crs
+317808 352921 Crs
+338966 334036 Crs
+360125 312109 Crs
+381283 285420 Crs
+402442 259574 Crs
+423600 227085 Crs
+444759 191778 Crs
+465917 154440 Crs
+487076 94263 Crs
+508234 36010 Crs
+529393 27758 Crs
+719547 520946 Crs
+% End plot #2
+% Begin plot #3
+1.000 UP
+1.200 UL
+LT0
+1.00 0.00 0.00 C LCb setrgbcolor
+719336 520846 M
+[ [(Helvetica) 100.0 0.0 true true 0 (Rep3 \(hard\) R=0.33)]
+] -33.3 MRshow
+LT0
+1.00 0.00 0.00 C 719396 520846 M
+303 0 V
+430 441471 M
+4232 -836 V
+4231 -635 V
+4232 -744 V
+4232 -765 V
+4232 -858 V
+4231 -594 V
+4232 -910 V
+4232 -739 V
+4231 -997 V
+4232 -761 V
+4232 -907 V
+4231 -981 V
+4232 -964 V
+4232 -872 V
+4232 -951 V
+4231 -798 V
+4232 -1010 V
+4232 -1062 V
+4231 -963 V
+4232 -994 V
+4232 -1218 V
+4231 -1011 V
+4232 -1121 V
+4232 -1044 V
+4232 -1151 V
+4231 -1187 V
+4232 -855 V
+4232 -1340 V
+4231 -1520 V
+4232 -831 V
+4232 -1150 V
+4231 -1541 V
+4232 -1345 V
+4232 -1111 V
+4232 -1515 V
+4231 -1455 V
+4232 -1056 V
+4232 -1534 V
+4231 -1646 V
+4232 -1478 V
+4232 -1420 V
+4231 -1626 V
+4232 -1330 V
+4232 -1777 V
+4232 -1753 V
+4231 -1319 V
+4232 -2099 V
+4232 -1667 V
+4231 -1900 V
+4232 -1477 V
+4232 -1637 V
+4231 -2354 V
+4232 -1776 V
+4232 -1499 V
+4232 -2431 V
+4231 -1884 V
+4232 -2187 V
+4232 -2083 V
+4231 -1821 V
+4232 -2392 V
+4232 -1982 V
+4231 -2358 V
+4232 -2293 V
+4232 -2659 V
+4232 -2232 V
+4231 -2830 V
+4232 -2476 V
+4232 -2218 V
+4231 -2364 V
+4232 -2730 V
+4232 -2928 V
+4231 -2642 V
+4232 -2782 V
+4232 -2648 V
+4232 -3346 V
+4231 -2620 V
+4232 -3648 V
+4232 -2288 V
+4231 -3217 V
+4232 -3228 V
+4232 -3242 V
+4231 -3997 V
+4232 -3586 V
+4232 -3179 V
+4232 -3913 V
+4231 -3996 V
+4232 -2542 V
+4232 -3315 V
+4231 -4370 V
+4232 -3565 V
+4232 -5283 V
+4231 -3472 V
+4232 -2788 V
+4232 -5753 V
+4232 -5594 V
+4231 -4683 V
+4232 -3904 V
+4232 -5188 V
+4231 -3330 V
+4232 -1653 V
+4232 -7324 V
+4231 -5927 V
+stroke 432063 218496 M
+4232 -6485 V
+4232 -4733 V
+4232 -5656 V
+4231 -5204 V
+4232 -4157 V
+4232 -6942 V
+4231 -4707 V
+4232 -8484 V
+4232 -7965 V
+4231 3378 V
+4232 -15199 V
+4232 -3937 V
+4232 -8869 V
+4231 -2134 V
+4232 -9714 V
+4232 -3961 V
+4231 -8071 V
+4232 -11168 V
+4232 -7352 V
+4231 -5064 V
+4232 -10694 V
+4232 -6474 V
+4232 -6540 V
+4231 -10095 V
+4232 -3937 V
+4232 -27421 V
+4231 4767 V
+4232 -13015 V
+553281 320 L
+8172 0 R
+1793 11869 V
+565040 320 L
+430 441471 BoxF
+21589 437633 BoxF
+42747 433632 BoxF
+63906 428957 BoxF
+85064 424130 BoxF
+106223 418585 BoxF
+127381 412852 BoxF
+148540 406190 BoxF
+169698 399021 BoxF
+190857 391115 BoxF
+212015 382653 BoxF
+233174 372956 BoxF
+254332 362589 BoxF
+275491 351065 BoxF
+296649 338447 BoxF
+317808 324101 BoxF
+338966 309100 BoxF
+360125 291183 BoxF
+381283 273395 BoxF
+402442 250505 BoxF
+423600 231747 BoxF
+444759 201622 BoxF
+465917 172128 BoxF
+487076 139536 BoxF
+508234 104488 BoxF
+529393 68364 BoxF
+550551 18663 BoxF
+719547 520846 BoxF
+% End plot #3
+% Begin plot #4
+1.000 UP
+1.200 UL
+LT0
+1.00 0.00 0.00 C LCb setrgbcolor
+719336 520746 M
+[ [(Helvetica) 100.0 0.0 true true 0 (Rep3 \(soft\) R=0.33)]
+] -33.3 MRshow
+LT0
+1.00 0.00 0.00 C 719396 520746 M
+303 0 V
+430 431330 M
+4232 -1018 V
+4231 -1101 V
+4232 -922 V
+4232 -1033 V
+4232 -671 V
+4231 -1064 V
+4232 -1303 V
+4232 -954 V
+4231 -1002 V
+4232 -1111 V
+4232 -1125 V
+4231 -1016 V
+4232 -949 V
+4232 -1357 V
+4232 -1170 V
+4231 -1222 V
+4232 -1361 V
+4232 -1379 V
+4231 -857 V
+4232 -1489 V
+4232 -1465 V
+4231 -1334 V
+4232 -1176 V
+4232 -1619 V
+4232 -1225 V
+4231 -1782 V
+4232 -1418 V
+4232 -1573 V
+4231 -1535 V
+4232 -1382 V
+4232 -1613 V
+4231 -1216 V
+4232 -1947 V
+4232 -1731 V
+4232 -1665 V
+4231 -1981 V
+4232 -1703 V
+4232 -1990 V
+4231 -1688 V
+4232 -1893 V
+4232 -2158 V
+4231 -1699 V
+4232 -2627 V
+4232 -1822 V
+4232 -1491 V
+4231 -2673 V
+4232 -2126 V
+4232 -2530 V
+4231 -2547 V
+4232 -1715 V
+4232 -2468 V
+4231 -2129 V
+4232 -3323 V
+4232 -1756 V
+4232 -2591 V
+4231 -3025 V
+4232 -2230 V
+4232 -2757 V
+4231 -3154 V
+4232 -2497 V
+4232 -2870 V
+4231 -3072 V
+4232 -3383 V
+4232 -3385 V
+4232 -3000 V
+4231 -3210 V
+4232 -3333 V
+4232 -2961 V
+4231 -3100 V
+4232 -4380 V
+4232 -3631 V
+4231 -3737 V
+4232 -3690 V
+4232 -3146 V
+4232 -2874 V
+4231 -3662 V
+4232 -5292 V
+4232 -3158 V
+4231 -5695 V
+4232 -4446 V
+4232 -4123 V
+4231 -5001 V
+4232 -2922 V
+4232 -4859 V
+4232 -4850 V
+4231 -5074 V
+4232 -7793 V
+4232 -1632 V
+4231 -7629 V
+4232 -4027 V
+4232 -10414 V
+4231 983 V
+4232 -5817 V
+4232 -11484 V
+4232 -1204 V
+4231 -7989 V
+4232 -5572 V
+4232 -8556 V
+4231 919 V
+4232 -11481 V
+4232 -4953 V
+4231 -8398 V
+stroke 432063 136071 M
+4232 -2785 V
+4232 -17630 V
+4232 -2172 V
+4231 -6789 V
+4232 -15222 V
+4232 -3121 V
+4231 -6974 V
+4232 -8248 V
+4232 -14861 V
+4231 4766 V
+4232 -11531 V
+4232 -9731 V
+4232 -1847 V
+4231 -24384 V
+4232 3121 V
+498898 320 L
+430 431330 Box
+21589 426585 Box
+42747 421151 Box
+63906 415534 Box
+85064 409226 Box
+106223 402407 Box
+127381 394717 Box
+148540 386545 Box
+169698 377290 Box
+190857 367493 Box
+212015 355902 Box
+233174 343635 Box
+254332 329972 Box
+275491 314262 Box
+296649 297278 Box
+317808 280200 Box
+338966 257947 Box
+360125 236192 Box
+381283 210037 Box
+402442 182101 Box
+423600 149422 Box
+444759 113484 Box
+465917 73130 Box
+487076 39926 Box
+719547 520746 Box
+% End plot #4
+% Begin plot #5
+1.000 UP
+1.200 UL
+LT0
+0.00 0.00 0.00 C LCb setrgbcolor
+719336 520646 M
+[ [(Helvetica) 100.0 0.0 true true 0 (Uncoded R=1)]
+] -33.3 MRshow
+LT0
+0.00 0.00 0.00 C 719396 520646 M
+303 0 V
+430 460900 M
+4232 -462 V
+4231 -342 V
+4232 -394 V
+4232 -592 V
+4231 -426 V
+4232 -354 V
+4232 -499 V
+4232 -516 V
+4231 -420 V
+4232 -361 V
+4232 -447 V
+4231 -589 V
+4232 -572 V
+4232 -483 V
+4231 -286 V
+4232 -649 V
+4232 -558 V
+4232 -425 V
+4231 -802 V
+4232 -476 V
+4232 -572 V
+4231 -563 V
+4232 -626 V
+4232 -599 V
+4231 -538 V
+4232 -512 V
+4232 -888 V
+4232 -480 V
+4231 -640 V
+4232 -742 V
+4232 -668 V
+4231 -711 V
+4232 -814 V
+4232 -589 V
+4231 -865 V
+4232 -669 V
+4232 -737 V
+4232 -651 V
+4231 -668 V
+4232 -696 V
+4232 -913 V
+4231 -965 V
+4232 -745 V
+4232 -1101 V
+4231 -701 V
+4232 -1033 V
+4232 -750 V
+4232 -834 V
+4231 -783 V
+4232 -1208 V
+4232 -632 V
+4231 -1326 V
+4232 -744 V
+4232 -1036 V
+4231 -1131 V
+4232 -799 V
+4232 -1357 V
+4232 -1136 V
+4231 -1031 V
+4232 -1288 V
+4232 -991 V
+4231 -1379 V
+4232 -829 V
+4232 -1137 V
+4231 -1640 V
+4232 -1171 V
+4232 -989 V
+4232 -1515 V
+4231 -1542 V
+4232 -1278 V
+4232 -1068 V
+4231 -1588 V
+4232 -1574 V
+4232 -1241 V
+4231 -1450 V
+4232 -1631 V
+4232 -1627 V
+4232 -1454 V
+4231 -1489 V
+4232 -1722 V
+4232 -1675 V
+4231 -2036 V
+4232 -1677 V
+4232 -1678 V
+4231 -1961 V
+4232 -1620 V
+4232 -2214 V
+4232 -1566 V
+4231 -1937 V
+4232 -2054 V
+4232 -2173 V
+4231 -2077 V
+4232 -1995 V
+4232 -2218 V
+4231 -1982 V
+4232 -2406 V
+4232 -2459 V
+4232 -2446 V
+4231 -2712 V
+4232 -2180 V
+4232 -2506 V
+4231 -1862 V
+stroke 432063 345757 M
+4232 -3364 V
+4232 -2275 V
+4231 -2563 V
+4232 -2609 V
+4232 -3204 V
+4232 -2103 V
+4231 -3734 V
+4232 -2922 V
+4232 -3134 V
+4231 -3598 V
+4232 -2808 V
+4232 -3600 V
+4231 -2549 V
+4232 -3817 V
+4232 -3287 V
+4232 -3986 V
+4231 -3535 V
+4232 -2812 V
+4232 -3915 V
+4231 -3461 V
+4232 -4614 V
+4232 -4153 V
+4231 -3570 V
+4232 -4905 V
+4232 -3492 V
+4232 -5210 V
+4231 -3593 V
+4232 -5867 V
+4232 -3673 V
+4231 -4652 V
+4232 -5579 V
+4232 -3977 V
+4231 -6497 V
+4232 -3266 V
+4232 -5975 V
+4232 -5410 V
+4231 -3181 V
+4232 -8567 V
+4232 -4650 V
+4231 -6915 V
+4232 -6041 V
+4232 -5629 V
+4231 -5824 V
+4232 -6381 V
+4232 -6722 V
+4232 -4327 V
+4231 -12409 V
+4232 -4840 V
+4232 -8345 V
+4231 -2506 V
+4232 -9227 V
+4232 -9064 V
+4231 -6820 V
+4232 -6143 V
+4232 -10873 V
+4232 -6756 V
+4231 -12113 V
+4232 -5928 V
+4232 -8978 V
+4231 -9820 V
+4232 -11664 V
+4232 -13311 V
+4231 -1206 V
+4232 -6568 V
+331 -2920 V
+42747 456534 Pls
+85064 451247 Pls
+127381 445087 Pls
+169698 438019 Pls
+212015 428986 Pls
+254332 418506 Pls
+296649 406035 Pls
+338966 391191 Pls
+381283 372773 Pls
+423600 350125 Pls
+465917 322983 Pls
+508234 289857 Pls
+550551 247077 Pls
+592868 196300 Pls
+635185 132562 Pls
+677502 54787 Pls
+719547 520646 Pls
+% End plot #5
+1.000 UL
+LTb
+LCb setrgbcolor
+430 521159 N
+430 320 L
+719389 0 V
+0 520839 V
+-719389 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
